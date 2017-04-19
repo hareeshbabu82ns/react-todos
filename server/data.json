@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "go to bookstore _1",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "learn javascript",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "test your skills",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "write simple app",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "test your code",
+      "completed": false
+    },
+    {
+      "title": "write simple app_patch",
+      "completed": true,
+      "id": 6
+    }
+  ]
+}

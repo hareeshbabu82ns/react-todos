@@ -1,0 +1,32 @@
+{
+  "name": "todos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/lodash": "^4.14.62",
+    "axios": "^0.16.1",
+    "express": "^4.15.2",
+    "faker": "^4.1.0",
+    "json-server": "^0.9.6",
+    "lodash": "^4.17.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.13",
+    "nodemon": "^1.11.0",
+    "react-scripts": "0.9.5",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  },
+  "scripts": {
+    "json-server": "json-server --watch ./server/data.json",
+    "serve": "npm run build:live",
+    "build:live": "nodemon --exec ts-node ./server",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
