@@ -2,6 +2,7 @@
   "name": "todos",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080/",
   "dependencies": {
     "@types/lodash": "^4.14.62",
     "axios": "^0.16.1",
@@ -9,6 +10,7 @@
     "faker": "^4.1.0",
     "json-server": "^0.9.6",
     "lodash": "^4.17.4",
+    "material-ui": "^0.17.4",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-tap-event-plugin": "^2.0.1"

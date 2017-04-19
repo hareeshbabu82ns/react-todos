@@ -14,7 +14,7 @@ const jsonApiRoutes = jsonServer.router('./server/data.json');
 
 //middleware function
 const logMiddleware = (req, res, next) => {
-  console.log(req.url, req.query);
+  console.log(req.url);
   next();
 }
 

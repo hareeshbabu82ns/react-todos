@@ -3,6 +3,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+Connect to Backend API with Proxy [here](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+
+Debug React App [here](https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f)
+- Run ```npm start```
+- configure  chrome in launch.json
+- execute debug configuration (note: need to start the client app first)
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
